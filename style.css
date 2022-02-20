@@ -11,6 +11,75 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+    color: white;
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(48,30,30);
+    margin-right: 45px;    
+}
+
+.tela-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    margin-left: 36%;
+    padding: 6em;
+    border-radius: 14px;
+    color: white;
+}
+
+#titulo {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.inputUser {
+    padding: 14px;
+    border: none;
+    outline: none;
+    font-size: 15px;    
+}
+
+.botao-enviar {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.botao-enviar:hover {
+    box-shadow: inset 2px 2px 2px rgba(0,0,0, 0.8);
+    text-shadow: none;
+}
+
+.botao-enviar {
+    cursor: pointer;
+}
+
+#Nome {
+    margin-bottom: 5px;
+}
+
+
 /* #check {
     display: flex;
 }
